@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (void){
+int main(){
     printf("Hello, World!\n");
-    system()
+    system("pause");
+    return 0;
 }
