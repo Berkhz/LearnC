@@ -11,6 +11,7 @@ int main(void){
     printf("Olá, Seja bem vindo ao nosso sistema! \n");
     printf("Como posso te chamar? \n");
     scanf("%d \n", &nome);
+    fflush(stdin);
 
     system("pause");
     return 0;
