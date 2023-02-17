@@ -4,9 +4,11 @@
 
 int main() {
     setlocale(LC_ALL, "portuguese");
-    float nota1, nota2, nota3;
-    float resultado;
+    float nota1, nota2, 
+    nota3, resultado;
+    int continuar;
 
+    do {
     printf("Bem vindo ao calculador de média!\n");
     printf("Me informe sua primeira nota: ");
     scanf("%f", &nota1);
@@ -38,6 +40,11 @@ int main() {
     resultado = ((nota1 + nota2 + nota3) / 3);
 
     printf("A média final e de: %.1f \n", resultado);
+    printf("Você deseja realizar outra consulta? (Digite 1 para SIM e 0 para NÃO!)\n");
+    scanf("%i", &continuar);
+    }
+    
+    while (continuar == 1);
     system("pause");
     return 0;
 }
