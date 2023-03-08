@@ -272,5 +272,5 @@ int main(void) {
         break;
     }
     system("pause");
-    return 0;
+    return 0;
 }
