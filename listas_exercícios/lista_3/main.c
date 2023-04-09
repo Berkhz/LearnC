@@ -4,9 +4,10 @@
 
 int main(void) {
     setlocale(LC_ALL, "Portuguese");
-    char nome[50], sexo;
-    int idade, escolhaExercicio, i;
-    float num1Decimal, auxDecimal;
+    char nome[50], aluno[50];
+    char sexo, verificar, continuar = 'S';
+    int idade, escolhaExercicio, i, num1, resultado, contador;
+    float num1Decimal, auxDecimal, resultadoDecimal = 0, nota1, nota2;
 
     printf("Essa é a lista 3 de exercícios!\nEscolha um exercício de 1 a 15\n");
     scanf("%i", &escolhaExercicio);
@@ -53,7 +54,7 @@ int main(void) {
             scanf("%s", nome);
             fflush(stdin);
 
-            printf("Informe a %iª idade: ", i);
+            printf("Informe a %iº idade: ", i);
             scanf("%i", &idade);
             fflush(stdin);
         }
@@ -149,6 +150,93 @@ int main(void) {
         case 10:
         //10) Solicite 10 números ao usuário. A cada número solicitado, apresente a mensagem PAR ou IMPAR e no fim,
         //apresente a média dos números ímpares.
+        i = 1;
+        contador = 0;
+        do 
+        {
+            printf("Informe %i numero: ", i);
+            scanf("%i", &num1);
+            fflush(stdin);
+            if (num1 % 2 == 0)
+            {
+                printf("PAR \n");
+            }
+            else 
+            {
+                printf("IMPAR \n");
+                resultado += num1;
+                contador++;
+            }
+            i++;
+        }
+        while (i <= 10);
+        printf("%i \n", resultado / contador);
+        break;
+
+        case 11:
+        //11) Solicite ao usuário o nome, idade e sexo (F/M) de algumas pessoas. A cada entrevista, o sistema deverá perguntar
+        //se o usuário deseja continuar a informar dados, e caso não queira, apresente a média de idade das mulheres.
+        printf("Bem vindo ao sistema de entrevistas!\nInforme os dados corretamente a seguir.\n");
+        do 
+        {
+        fflush(stdin);
+
+        printf("Nome: ");
+        gets(nome);
+        fflush(stdin);
+
+        printf("Idade: ");
+        scanf("%i", &idade);
+        fflush(stdin);
+
+        printf("Sexo (F/M): ");
+        scanf("%c", &sexo);
+        fflush(stdin);
+
+        if (sexo == 'F')
+        {
+            resultadoDecimal += idade;
+            auxDecimal++;
+        }
+
+        printf("Deseja continuar? (S/N) \n");
+        scanf("%c", &verificar);
+        fflush(stdin);
+        
+        if (verificar == 'N')
+        {
+            continuar = 'N';
+        }
+
+        }
+        while (continuar == 'S');
+        printf("A media de idade das mulheres e de: %.2f \n", resultadoDecimal / auxDecimal);
+        break;
+
+        case 12:
+        //12) Construa um algoritmo que solicite os dados dos alunos (nome, nota1 e nota2) em uma sala de aula contendo 32
+        //alunos. Posteriormente, apresente a média da turma e o percentual de aprovados e reprovados, considerando que a
+        //média mínima para aprovação é 6,0. Obs. As notas fornecidas deverão ser validadas entre 0 e 10.
+        for (i = 1; i <= 32; i++)
+        {
+            fflush(stdin);
+            printf("Nome do aluno: ");
+            gets(aluno);
+
+            do 
+            {
+            printf("Insira a nota 1 do %s: ", aluno);
+            scanf("%f", &nota1);
+            }
+            while (nota1 >= 0 || nota1 <= 10);
+
+            do
+            {
+            printf("Insira a nota 2 do %s: ", aluno);
+            scanf("%f", &nota2);
+            }
+            while (nota2 >= 0 || nota2 <= 10);
+        }
         break;
         
     default:
