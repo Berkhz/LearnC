@@ -1,0 +1,1939 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6200",
+          "message": {
+            "text": "O índice \"26\" está fora do intervalo válido de índice de \"0\" a \"25\" para o buffer não pilha \"pal\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                },
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 28,
+                  "endLine": 92,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "mostra",
+                  "decoratedName": "mostra",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Saturação de buffer ao gravar em 'pal'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                },
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 13,
+                  "endLine": 135,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "inserePalavra",
+                  "decoratedName": "inserePalavra",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"horizontal\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 66
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"x0+strlen(palavrasorteada)>26\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 131,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) \"x\" recebe o valor de \"x0\""
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 132,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar neste loop, (supor \"i<strlen(palavrasorteada)\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 136,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 137,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 134,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Continuar este loop, (supor \"i<strlen(palavrasorteada)\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 135,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Escrita inválida em \"pal[26]\" (intervalo gravável é de 0 a 25)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando memória não inicializada \"x\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 15,
+                  "endLine": 146,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "inserePalavra",
+                  "decoratedName": "inserePalavra",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "\"x\" não foi inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"horizontal\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 66
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar nesta ramificação, (supor \"x0+strlen(palavrasorteada)>26\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esse loop, (supor que \"x<0||x>26||y<0||y>26\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "\"x\" é um argumento In/Out para \"printf\" (declarado em c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:950)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "\"x\" é usado, mas pode não ter sido inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando memória não inicializada \"y\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                },
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 35,
+                  "endLine": 146,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "inserePalavra",
+                  "decoratedName": "inserePalavra",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "\"y\" não foi inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"horizontal\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 66
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar nesta ramificação, (supor \"x0+strlen(palavrasorteada)>26\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esse loop, (supor que \"x<0||x>26||y<0||y>26\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "\"y\" é um argumento In/Out para \"printf\" (declarado em c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:950)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "\"y\" é usado, mas pode não ter sido inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando memória não inicializada \"dy\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 37,
+                  "endLine": 160,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "inserePalavra",
+                  "decoratedName": "inserePalavra",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "\"dy\" não foi inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"horizontal\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 66
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar nesta ramificação, (supor \"x0+strlen(palavrasorteada)>26\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esse loop, (supor que \"x<0||x>26||y<0||y>26\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"horizontal\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 157,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"vertical&&dx==-1&&dy==1\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"vertical&&dx==1&&dy==-1\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 37
+                          }
+                        },
+                        "message": {
+                          "text": "\"dy\" é usado, mas pode não ter sido inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando memória não inicializada \"dx\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                },
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 13,
+                  "endLine": 164,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "inserePalavra",
+                  "decoratedName": "inserePalavra",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "\"dx\" não foi inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"horizontal\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 66
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 65
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"<condição do ramo>\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 124,
+                            "startColumn": 46
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar nesta ramificação, (supor \"x0+strlen(palavrasorteada)>26\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 146,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esse loop, (supor que \"x<0||x>26||y<0||y>26\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"horizontal\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 157,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"vertical&&dx==-1&&dy==1\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "Ignorar esta ramificação, (supor que \"vertical&&dx==1&&dy==-1\" é falso)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 164,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar nesta ramificação, (supor \"dx==1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+                          },
+                          "region": {
+                            "startLine": 164,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "\"dx\" é usado, mas pode não ter sido inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31631.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/kauan/GitHub/LearnC/cacaPalavras/cacaPalavras.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5cd5bf1cb4858580d1cd465ffa1671eecd435d0841b9ad813a416372783fafb1"
+          }
+        }
+      ]
+    }
+  ]
+}
